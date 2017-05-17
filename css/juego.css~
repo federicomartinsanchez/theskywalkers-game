@@ -1,0 +1,3 @@
+body {background:#ffffff url("fondo.jpg") no-repeat right top;}
+h1{margin-left:50%; color:orange;}
+canvas{margin-left: 20%;  border:5px ridge orange;background: url("fondochinojuego.gif") no-repeat center;}

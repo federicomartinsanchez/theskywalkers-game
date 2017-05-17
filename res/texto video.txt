@@ -1,0 +1,29 @@
+
+Hola, soy ....., diseñador del juego "The Skywalkers", y os voy a explicar
+como funciona:
+
+Nos situamos en el hangar de la infame estación espacial "Estrella de la Muerte", donde Luke Skywalker y Darth Vader se miden
+en un duelo que decidirá el futuro de su galaxia.
+
+El juego está diseñado para 2 jugadores, de manera que puedes competir contra tus amigos y decidir tu bando ( Darth Vader representa al Imperio
+
+y Luke Skywalker a la alianza rebelde). %% Aquí podemos decir que estamos trabajando en añadir más personajes, por ejemplo.
+
+El objetivo del juego es vaciar la barra de vida de tu rival(las vidas están representadas por los sables láser situados en el margen 
+
+superior de la pantalla). Queríamos darle mayor dinamismo al combate para que sea más divertido, así que le hemos añadido dos plataformas
+
+al escenario. Los personajes pueden saltar y subirse a las plataformas, de manera que pueden utilizarse bien para defenderte (por ejemplo para escapar
+
+de un ataque) o bien para saltar sobre tu oponente y tratar de sorprenderle.
+
+Para añadirle más épica al juego, le hemos añadido banda sonora y efectos de sonido en los sables láser. Además, cuando la partida termina, se sustituye
+
+la imagen del personaje perdedor por un vídeo en el que aparece siendo derrotado. Cada video contiene un momento distinto de las películas.
+
+
+Revive la batalla más épica de la saga Star Wars con :"The Skywalkers"
+
+Visita www.theskywalkers.com y diviértete a golpe de sablazo láser.
+
+Gracias por vuestra atención!!

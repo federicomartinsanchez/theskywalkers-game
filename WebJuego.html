@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<title>The Skywalkers</title>
+<link rel="stylesheet" type="text/css" href="./css/prueba1.css" media="screen" />
+
+
+</head>
+
+<body>
+
+<header>THE SKYWALKERS</header><br>
+
+<nav>
+
+<span class='solapa_activa'>Instrucciones</span>
+
+<span class='solapa'>Autores</span>
+
+<span class='solapa'>Referencias</span>
+<span class='solapa'>!JUGAR!</span>
+</nav>
+
+<section class='visible'>
+<h1>Instrucciones</h1><br> 
+<img class="teclas" src="img/teclas.png"  >
+
+</section>
+
+<section class='oculta'>
+<h1>Autores</h1><br>
+ 
+ Alvaro Martinez Lopez-Zuazo (100284020)<br>
+ 
+ Federico Martin Sanchez (100285372)<br>
+ 
+ Israel Matellan Jimenez (100072653)<br>
+ 
+ Víctor Rodrigo Pajares (100284190)<br><br>
+ 
+ Grado en Ingenieria de Sistemas Audiovisuales Grupo 67 <br><br><br>
+Universidad Carlos III de Madrid
+ <video width="720" height="480" controls >
+  <source src="media/autores.mp4" type="video/mp4">
+
+</video><br>
+ 
+ </section>
+
+<section class='oculta'>
+<h1>Referencias</h1><br> 
+
+<ul> 
+ <li> Sprites de los personajes:<br><br>
+ <ul>	<li>Darth Vader: <a href="https://www.spriters-resource.com/snes/sempirestrike/sheet/52090/">https://www.spriters-resource.com/snes/sempirestrike/sheet/52090/</a> <br></li>
+		<li>Luke Skywalker: <a href="https://www.spriters-resource.com/snes/superjedi/sheet/11111/">https://www.spriters-resource.com/snes/superjedi/sheet/11111/</a> <br><br></li>
+ </ul> <br>
+ <li> Animaciones canvas: <a href="http://www.w3schools.com/tags/canvas_drawimage.asp">http://www.w3schools.com/tags/canvas_drawimage.asp</a><br><br>
+ <li> Codigo de salto: <a href="http://www.williammalone.com/articles/create-html5-canvas-javascript-game-character/2/">http://www.williammalone.com/articles/create-html5-canvas-javascript-game-character/2/</a><br><br>
+ <li> Codigo asociado a cada tecla: <a href="http://www.w3.org/2002/09/tests/keys-cancel2.html">http://www.w3.org/2002/09/tests/keys-cancel2.html</a><br><br>
+ <li> Selector de colores HTML: <a href="http://www.w3schools.com/tags/ref_colorpicker.asp">http://www.w3schools.com/tags/ref_colorpicker.asp</a><br><br><br>
+ <li> Tutoriales:<br><br>
+	<ul> 
+		<li><a href="http://billmill.org/static/canvastutorial/index.html">http://billmill.org/static/canvastutorial/index.html</a><br><br></li>
+		<li>Aula Global:<br><br>
+			<ul>
+			<li>Transparencias HTLM5<br></li>
+			<li>Transparencias CSS<br></li>
+			<li>JavaScript<br></li>
+			<li>Video y audio en HTLM5<br></li>
+			<li>Trabajando con el canvas de HTML5<br><br></li>
+			</ul>	
+	</ul> 
+</ul>
+</section>
+
+<section class='oculta'>
+<h1>¡JUGAR!</h1><br> 
+
+<button type="button" onclick='window.open("juego de luchadef.html")'>Llévame al juego</button>
+</section>
+
+<br><br><br><br><br><br><br><br>
+
+<footer>	
+		<div> 
+		<img class="logo" src="./img/UC3MLogo.png" >
+			<p>
+				The Skywalkers esta creado por  <a href="https://twitter.com/Victoruc3m">Víctor</a>,   <a href="https://twitter.com/alvarouc3m">Álvaro</a>,   <a href="https://twitter.com/federicouc3m">Federico</a>,   <a href="https://twitter.com/israeluc3m">Israel</a>   estudiantes de la universidad Carlos III de Madrid.
+			</p>
+			<p>
+				Si quieres ponerte en contacto con nosotros puedes utilizar cualquiera de los siguientes métodos:
+			</p>
+			<ul>
+				<li>
+					Twitter: <a href="https://twitter.com/TheSkywalkers"> @TheSkywalkers</a>
+				</li>
+				<li>
+					E-mail:  Víctor: <a href="mailto:100284190@alumnos.uc3m.es">100284190@alumnos.uc3m.es</a>  Álvaro: <a href="mailto:100284020@alumnos.uc3m.es">100284020@alumnos.uc3m.es</a>  Federico: <a href="mailto:100285372@alumnos.uc3m.es">100285372@alumnos.uc3m.es</a>  Israel: <a href="mailto:100072653@alumnos.uc3m.es">100072653@alumnos.uc3m.es</a>
+				</li>
+			</ul>
+		</div>
+	
+</footer>
+
+<script>
+
+function cambia_estado(e){
+sa=e.target;
+	
+	for(var i=0;i<spanlist.length;i++){
+		if(sa==spanlist[i]){
+		spanlist[i].className='solapa_activa';
+		sectionlist[i].className='visible';
+					
+		}else{
+		spanlist[i].className='solapa';
+		sectionlist[i].className='oculta';
+		}
+		}
+
+		
+	
+}
+
+window.onload=function() {
+spanlist=document.getElementsByTagName("span");
+
+
+sectionlist=document.getElementsByTagName("section");
+
+
+	for(var i=0;i<spanlist.length;i++)
+	{
+	spanlist[i].addEventListener('click',cambia_estado);
+	}
+
+}
+</script>
+</body>
+
+
+
+
+</html>

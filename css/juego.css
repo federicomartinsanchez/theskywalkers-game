@@ -1,0 +1,7 @@
+body {background:#ffffff url("../img/fondo2.jpg") no-repeat right top;}
+h1{margin-left:40%; color:rgb(171,177,79); font-family:OCR A Std; text-shadow: 5px 5px 5px #000000}
+canvas{margin-left: 20%; border:5px ridge rgb(171,177,79);background: url("../img/fondohangar.jpg") no-repeat left;}
+video.i{margin-left: 20%;}
+video.d{margin-left:32%;}
+
+
